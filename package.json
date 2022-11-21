@@ -4,10 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "deploy": "node app.js"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "12.22.12"
+  },
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.2",
